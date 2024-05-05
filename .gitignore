@@ -1,0 +1,11 @@
+tf_model/tf_model_052024.h5
+tf_model/tf_model_052024_EfficientNetB07.h5
+tf_model/tf_model_052024_EfficientNetB06.keras
+tf_model/tf_model_052024_resnet50.h5
+uploads
+product_classification.ipynb
+
+# Ignore the following directories
+__pycache__
+/tf_model/__pycache__
+/config/__pycache__
