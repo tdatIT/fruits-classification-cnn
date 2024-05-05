@@ -49,7 +49,7 @@ class TFModel:
 
 
 def download_model_from_google_drive(url):
-    file_name = 'tf_model_052024_EfficientNetB06.keras'
+    file_name = 'tf_model_052024_effecientNetB0_fruit.keras'
     basepath = os.path.dirname(__file__)
     file_path = os.path.join(basepath, file_name)
 
