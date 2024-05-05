@@ -3,6 +3,6 @@ server:
 
 
 model:
-  path: 'D:/Code/Python/final-project-deep-learning/tf_model/tf_model_052024_effecientNetB0_fruit.keras'
-  drive_path: 'https://drive.google.com/uc?id=1nDbopiR_TTm9mT8u-2XMtNyljUbJ8RPt'
+  path: 'D:/Code/Python/project-deep-learning/tf_model/tf_model_052024_effecientNetB0_fruit.keras'
+  drive_path: 'https://drive.google.com/uc?id=1131WP_4hVQGRjpUHvP8w1qvHyWdBh80i'
   class_names: ['apple', 'vanana', 'grape', 'mango', 'strawberry']
