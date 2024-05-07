@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project is focused on product image classification using deep learning techniques. The goal is to develop a model that can accurately classify product images into different categories.
+This project is focused on fruits image classification using deep learning techniques. The goal is to develop a model that can accurately classify 9 class images into ['apple', 'banana', 'grape', 'mango', 'strawberry', 'tomato', 'watermelon','orange','durian'].
 
 ## Installation
 
