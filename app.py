@@ -111,4 +111,5 @@ class PredictResponse():
 
 
 if __name__ == '__main__':
-    app.run(port=global_cfg.config['server']['port'], debug=True)
+    from waitress import serve
+    serve(app, host="0.0.0.0", port=global_cfg.config['server']['port'])

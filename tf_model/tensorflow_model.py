@@ -28,10 +28,10 @@ class TFModel:
 
     def predict_img(self, image_url, num_classes=1):
 
-        print("Predicting image...", image_url, "- num_classes:", num_classes)
+        print("Predicting image:", image_url, "- num_classes:", num_classes)
         start_time = time.time()
-        img = keras.preprocessing.image.load_img(image_url,
-                                                 target_size=(250, 250))
+        img = keras.preprocessing.image.load_img(
+            image_url, target_size=(250, 250))
         img_array = keras.preprocessing.image.img_to_array(img)
         img_array = np.array([img_array])
         predictions = self.model.predict(img_array)
@@ -44,6 +44,13 @@ class TFModel:
 
         result = {class_name: confidence for class_name,
                   confidence in zip(top_classes, top_confidences)}
+        print('result:', result)
+
+        try:
+            if os.path.exists(image_url):
+                os.remove(image_url)
+        except Exception as e:
+            print(e)
 
         return result, round(total_time)
 
