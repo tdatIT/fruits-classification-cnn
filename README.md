@@ -14,3 +14,8 @@ To run this project, you need to have Python installed on your system. And using
     - Python 3.12
 
 Using command `flask --app app run` to run project
+
+# Contributors
+- Tran Tien Dat
+- Nguyen Minh Cuong
+- Pham Hong Hieu
