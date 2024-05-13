@@ -72,8 +72,7 @@ def predict_by_json():
         for i in data['image_urls']:
             uploaded_path = upload_url_img.download_image(i)
 
-            result, total_time = tf_instance.predict_img(
-                image_url=uploaded_path, num_classes=nums)
+            result, total_time = tf_instance.predict_img(image_url=uploaded_path, num_classes=nums)
 
             predicts = list()
             for class_name, confidence in result.items():
