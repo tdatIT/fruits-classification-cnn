@@ -4,5 +4,5 @@ server:
 
 model:
   path: 'D:/Code/Python/project-deep-learning/tf_model/tf_model_13052024_effecientNetB0.keras'
-  drive_path: 'https://drive.google.com/uc?id=1131WP_4hVQGRjpUHvP8w1qvHyWdBh80i'
+  drive_path: 'https://drive.google.com/uc?id=1OGvbad_8hSbpQd2QSnR0EmLGhF3xpgxA'
   class_names: ['apple', 'banana', 'grape', 'mango', 'strawberry', 'tomato', 'watermelon','orange','durian']
